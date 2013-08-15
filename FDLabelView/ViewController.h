@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FDLabelView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    BOOL _debug;
+}
+
+@property(nonatomic, retain) FDLabelView* labelView;
+@property(nonatomic, retain) FDLabelView* titleView;
+@property(nonatomic, retain) FDLabelView* fillTextView;
+
 
 @end

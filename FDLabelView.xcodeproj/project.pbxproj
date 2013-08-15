@@ -18,6 +18,11 @@
 		308CCCC317B36E0100F98B94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CCCC217B36E0100F98B94 /* Default-568h@2x.png */; };
 		308CCCC617B36E0100F98B94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CCCC517B36E0100F98B94 /* ViewController.m */; };
 		308CCCC917B36E0100F98B94 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308CCCC717B36E0100F98B94 /* ViewController.xib */; };
+		308CCCD217B36E3C00F98B94 /* FDLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CCCD117B36E3C00F98B94 /* FDLabelView.m */; };
+		308CCCD517B3AA6100F98B94 /* FDLabelConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CCCD417B3AA6100F98B94 /* FDLabelConfigViewController.m */; };
+		308CCCD817B4A96200F98B94 /* FDFontPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CCCD717B4A96200F98B94 /* FDFontPickerViewController.m */; };
+		308CCCFE17BA3CE500F98B94 /* fourdesire-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CCCFD17BA3CE500F98B94 /* fourdesire-logo@2x.png */; };
+		308CCD0017BA489400F98B94 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CCCFF17BA489400F98B94 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,14 @@
 		308CCCC417B36E0100F98B94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		308CCCC517B36E0100F98B94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		308CCCC817B36E0100F98B94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		308CCCD017B36E3C00F98B94 /* FDLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLabelView.h; sourceTree = "<group>"; };
+		308CCCD117B36E3C00F98B94 /* FDLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLabelView.m; sourceTree = "<group>"; };
+		308CCCD317B3AA6100F98B94 /* FDLabelConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLabelConfigViewController.h; sourceTree = "<group>"; };
+		308CCCD417B3AA6100F98B94 /* FDLabelConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLabelConfigViewController.m; sourceTree = "<group>"; };
+		308CCCD617B4A96200F98B94 /* FDFontPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFontPickerViewController.h; sourceTree = "<group>"; };
+		308CCCD717B4A96200F98B94 /* FDFontPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFontPickerViewController.m; sourceTree = "<group>"; };
+		308CCCFD17BA3CE500F98B94 /* fourdesire-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fourdesire-logo@2x.png"; sourceTree = "<group>"; };
+		308CCCFF17BA489400F98B94 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,8 @@
 		308CCCB217B36E0100F98B94 /* FDLabelView */ = {
 			isa = PBXGroup;
 			children = (
+				308CCCFC17BA3CE500F98B94 /* images */,
+				308CCCCF17B36E2A00F98B94 /* FDLabelView */,
 				308CCCBB17B36E0100F98B94 /* AppDelegate.h */,
 				308CCCBC17B36E0100F98B94 /* AppDelegate.m */,
 				308CCCC417B36E0100F98B94 /* ViewController.h */,
@@ -105,6 +120,28 @@
 				308CCCC217B36E0100F98B94 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		308CCCCF17B36E2A00F98B94 /* FDLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				308CCCD017B36E3C00F98B94 /* FDLabelView.h */,
+				308CCCD117B36E3C00F98B94 /* FDLabelView.m */,
+				308CCCD317B3AA6100F98B94 /* FDLabelConfigViewController.h */,
+				308CCCD417B3AA6100F98B94 /* FDLabelConfigViewController.m */,
+				308CCCD617B4A96200F98B94 /* FDFontPickerViewController.h */,
+				308CCCD717B4A96200F98B94 /* FDFontPickerViewController.m */,
+			);
+			path = FDLabelView;
+			sourceTree = "<group>";
+		};
+		308CCCFC17BA3CE500F98B94 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				308CCCFF17BA489400F98B94 /* background@2x.png */,
+				308CCCFD17BA3CE500F98B94 /* fourdesire-logo@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +200,8 @@
 				308CCCC117B36E0100F98B94 /* Default@2x.png in Resources */,
 				308CCCC317B36E0100F98B94 /* Default-568h@2x.png in Resources */,
 				308CCCC917B36E0100F98B94 /* ViewController.xib in Resources */,
+				308CCCFE17BA3CE500F98B94 /* fourdesire-logo@2x.png in Resources */,
+				308CCD0017BA489400F98B94 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +215,9 @@
 				308CCCB917B36E0100F98B94 /* main.m in Sources */,
 				308CCCBD17B36E0100F98B94 /* AppDelegate.m in Sources */,
 				308CCCC617B36E0100F98B94 /* ViewController.m in Sources */,
+				308CCCD217B36E3C00F98B94 /* FDLabelView.m in Sources */,
+				308CCCD517B3AA6100F98B94 /* FDLabelConfigViewController.m in Sources */,
+				308CCCD817B4A96200F98B94 /* FDFontPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +340,7 @@
 				308CCCCE17B36E0100F98B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
