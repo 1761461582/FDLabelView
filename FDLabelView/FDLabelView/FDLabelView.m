@@ -628,7 +628,7 @@ debugSentences;
     CGFloat minimumSize = self.font.pointSize;
     CGFloat originalMinimumSize = self.font.pointSize * self.minimumScaleFactor;
     
-    while ((visualTextHeight > size.height || (visualLineNumber > self.numberOfLines && self.numberOfLines > 0)) && minimumSize > originalMinimumSize) {
+    while ((actualTextHeight > size.height || (actualLineNumber > self.numberOfLines && self.numberOfLines > 0)) && minimumSize > originalMinimumSize) {
         minimumSize -= 0.5;
         adjustedFont = [UIFont fontWithName:self.font.fontName
                                        size:minimumSize * self.layer.contentsScale];
