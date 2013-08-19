@@ -631,7 +631,7 @@ debugSentences;
     while ((visualTextHeight > size.height || (visualLineNumber >= self.numberOfLines && self.numberOfLines > 0)) && minimumSize > originalMinimumSize) {
         minimumSize -= 0.5;
         adjustedFont = [UIFont fontWithName:self.font.fontName
-                                       size:minimumSize];
+                                       size:minimumSize * self.layer.contentsScale];
         [self determineHeight];
     }
     
